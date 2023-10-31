@@ -1,5 +1,9 @@
+import { Login } from "./Authentication/Login"
+
 export const Home = () => {
     return (
-        <h1>hello world</h1>
+        <>
+            <Login />
+        </>
     )
 }
